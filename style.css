@@ -1,17 +1,71 @@
 body {
-    background-color: rgb(253, 251,251);
+  background-color: rgb(253, 251,251);
 }
+
 #cabecalho {
-    position: fixed;
-    margin-top: 0px;
+  border: 3px solid #bb42ca;
+  border-radius: 20px;
+  position: fixed;
+  width: 90%;
+  margin: 3%;
+  margin-top: 0px;
+  background-color: rgb(253, 251,251);
 }
-.aside {
-    background-color: salmon;
-    display: inline-block;
-    margin-left: 500px;
-    margin-top: 0px;
+
+#titulo {
+  text-align: center;
+  border: 2px solid #4F24A4;
+  border-radius: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: #409cad;
 }
+
 #minha_foto {
-    display: inline-block;
-    background-color: salmon;
+  margin-top: 140px;
+  margin-left: 5%;
+  margin-bottom: 6%;
+  width: 30%;
+  border: #409cad 1px solid;
+  border-radius: 50%;
+}
+
+#text-article {
+  float: right;
+  width: 50%;
+  height: 30%;
+  margin-top: 20%;
+  border: #409cad 1px solid;
+  border-radius: 30px;
+  padding: 3%;
+  font-size: large;
+  word-spacing: 5px;
+  text-align: center;
+  justify-content: center;
+  margin-right: 5%;
+}
+
+#rodape {
+  border: 1px solid #4F24A4;
+  border-radius: 20px;
+  text-align: center;
+  color: #4F24A4;
+}
+
+#section-licoes {
+  border: 1px solid #4F24A4;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 7%;
+  margin-right: 4%;
+  margin-left: 4%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.licoes {
+  width: 40%;
+  border: 1px solid #4F24A4;
+  border-radius: 20px;
+  padding: 3%;
 }
