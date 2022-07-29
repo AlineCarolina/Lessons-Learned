@@ -1,6 +1,9 @@
 # Project Lessons Learned! 🚀
 My fist 'Hello  world!'
 
+![image](/images/Captura%20de%20tela%20de%202022-07-29%2020-03-35.png)
+![image](/images/Captura%20de%20tela%20de%202022-07-29%2020-03-40.png)
+
 ---
 
 ## About the project
@@ -20,8 +23,8 @@ To install and run the project you must have [Visual Studio Code](https://code.v
 Using the terminal, clone the project:
 
 ```
-$ git clone 
-$ cd 
+$ git clone git@github.com:AlineCarolina/Lessons-Learned.git
+$ cd Lessons-Learned
 ```
 
 Open a project and click Go Live on the status bar to turn the server on/off.
